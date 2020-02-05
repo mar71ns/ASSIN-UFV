@@ -1,0 +1,892 @@
+
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    RandomForestClassifier
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.582
+Accuracy                                 84.750
+
+Matriz de Confusao
+           Non Ent Par
+None       1506  47   0
+Entailment 155 172  14
+Parafrase   50  39  17
+
+Classification Report              precision    recall  f1-score   support
+
+           0       0.88      0.97      0.92      1553
+           1       0.67      0.50      0.57       341
+           2       0.55      0.16      0.25       106
+
+    accuracy                           0.85      2000
+   macro avg       0.70      0.54      0.58      2000
+weighted avg       0.83      0.85      0.83      2000
+
+Params:{
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "auto",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 4,
+    "min_samples_split": 16,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": -1,
+    "oob_score": true,
+    "random_state": 50,
+    "verbose": 1,
+    "warm_start": true
+}
+2020-02-02 18:50:36
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    ExtraTreesClassifier
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.551
+Accuracy                                 84.800
+
+Matriz de Confusao
+           Non Ent Par
+None       1517  36   0
+Entailment 161 169  11
+Parafrase   49  47  10
+
+Classification Report              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.93      1553
+           1       0.67      0.50      0.57       341
+           2       0.48      0.09      0.16       106
+
+    accuracy                           0.85      2000
+   macro avg       0.68      0.52      0.55      2000
+weighted avg       0.82      0.85      0.82      2000
+
+Params:{
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "auto",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 50,
+    "verbose": 0,
+    "warm_start": false
+}
+2020-02-02 18:50:39
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    GradientBoostingClassifier
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.637
+Accuracy                                 85.500
+
+Matriz de Confusao
+           Non Ent Par
+None       1490  56   7
+Entailment 131 189  21
+Parafrase   41  34  31
+
+Classification Report              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93      1553
+           1       0.68      0.55      0.61       341
+           2       0.53      0.29      0.38       106
+
+    accuracy                           0.85      2000
+   macro avg       0.70      0.60      0.64      2000
+weighted avg       0.84      0.85      0.84      2000
+
+Params:{
+    "ccp_alpha": 0.0,
+    "criterion": "friedman_mse",
+    "init": null,
+    "learning_rate": 0.1,
+    "loss": "deviance",
+    "max_depth": 3,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 100,
+    "n_iter_no_change": null,
+    "presort": "deprecated",
+    "random_state": 50,
+    "subsample": 1.0,
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+}
+2020-02-02 18:50:41
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    HistGradientBoostingClassifier
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.592
+Accuracy                                 85.100
+
+Matriz de Confusao
+           Non Ent Par
+None       1518  31   4
+Entailment 161 164  16
+Parafrase   53  33  20
+
+Classification Report              precision    recall  f1-score   support
+
+           0       0.88      0.98      0.92      1553
+           1       0.72      0.48      0.58       341
+           2       0.50      0.19      0.27       106
+
+    accuracy                           0.85      2000
+   macro avg       0.70      0.55      0.59      2000
+weighted avg       0.83      0.85      0.83      2000
+
+Params:{
+    "l2_regularization": 1,
+    "learning_rate": 0.01,
+    "loss": "auto",
+    "max_bins": 128,
+    "max_depth": 16,
+    "max_iter": 100,
+    "max_leaf_nodes": 8,
+    "min_samples_leaf": 20,
+    "n_iter_no_change": null,
+    "random_state": 50,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+}
+2020-02-02 18:50:46
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPClassifier
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.626
+Accuracy                                 83.700
+
+Matriz de Confusao
+           Non Ent Par
+None       1447  90  16
+Entailment 128 194  19
+Parafrase   35  38  33
+
+Classification Report              precision    recall  f1-score   support
+
+           0       0.90      0.93      0.91      1553
+           1       0.60      0.57      0.59       341
+           2       0.49      0.31      0.38       106
+
+    accuracy                           0.84      2000
+   macro avg       0.66      0.60      0.63      2000
+weighted avg       0.83      0.84      0.83      2000
+
+Params:{
+    "activation": "relu",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_fun": 15000,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 10,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2020-02-02 18:51:20
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingClassifier
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.574
+Accuracy                                 84.700
+
+Matriz de Confusao
+           Non Ent Par
+None       1507  46   0
+Entailment 157 172  12
+Parafrase   53  38  15
+
+Classification Report              precision    recall  f1-score   support
+
+           0       0.88      0.97      0.92      1553
+           1       0.67      0.50      0.58       341
+           2       0.56      0.14      0.23       106
+
+    accuracy                           0.85      2000
+   macro avg       0.70      0.54      0.57      2000
+weighted avg       0.83      0.85      0.83      2000
+
+Params:
+model1{
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "auto",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 4,
+    "min_samples_split": 16,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": -1,
+    "oob_score": true,
+    "random_state": 50,
+    "verbose": 1,
+    "warm_start": true
+}
+2020-02-02 18:52:01
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    LogisticRegression
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.681
+Accuracy                                 86.800
+
+Matriz de Confusao
+           Non Ent Par
+None       1493  54   6
+Entailment 122 205  14
+Parafrase   34  34  38
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.93      1553
+           1       0.70      0.60      0.65       341
+           2       0.66      0.36      0.46       106
+
+    accuracy                           0.87      2000
+   macro avg       0.75      0.64      0.68      2000
+weighted avg       0.86      0.87      0.86      2000
+
+Params:{
+    "C": 1.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 100,
+    "multi_class": "warn",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 50,
+    "solver": "newton-cg",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+}
+2020-02-03 12:23:02
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    LogisticRegression
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.639
+Accuracy                                 80.850
+
+Matriz de Confusao
+           Non Ent Par
+None       1323 174  56
+Entailment  63 243  35
+Parafrase   19  36  51
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.94      0.85      0.89      1553
+           1       0.54      0.71      0.61       341
+           2       0.36      0.48      0.41       106
+
+    accuracy                           0.81      2000
+   macro avg       0.61      0.68      0.64      2000
+weighted avg       0.84      0.81      0.82      2000
+
+Params:{
+    "C": 1.0,
+    "class_weight": "balanced",
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 100,
+    "multi_class": "warn",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 50,
+    "solver": "newton-cg",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+}
+2020-02-03 12:27:28
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    LogisticRegressionCV
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.658
+Accuracy                                 86.650
+
+Matriz de Confusao
+           Non Ent Par
+None       1503  46   4
+Entailment 131 200  10
+Parafrase   41  35  30
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.93      1553
+           1       0.71      0.59      0.64       341
+           2       0.68      0.28      0.40       106
+
+    accuracy                           0.87      2000
+   macro avg       0.76      0.61      0.66      2000
+weighted avg       0.85      0.87      0.85      2000
+
+Params:{
+    "Cs": 10,
+    "class_weight": null,
+    "cv": "warn",
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1.0,
+    "l1_ratios": null,
+    "max_iter": 100,
+    "multi_class": "warn",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 50,
+    "refit": true,
+    "scoring": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0
+}
+2020-02-03 12:43:03
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    LogisticRegressionCV
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.620
+Accuracy                                 86.100
+
+Matriz de Confusao
+           Non Ent Par
+None       1500  50   3
+Entailment 132 202   7
+Parafrase   43  43  20
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.93      1553
+           1       0.68      0.59      0.64       341
+           2       0.67      0.19      0.29       106
+
+    accuracy                           0.86      2000
+   macro avg       0.75      0.58      0.62      2000
+weighted avg       0.85      0.86      0.85      2000
+
+Params:{
+    "Cs": 10,
+    "class_weight": null,
+    "cv": 5,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1.0,
+    "l1_ratios": null,
+    "max_iter": 100,
+    "multi_class": "warn",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 50,
+    "refit": true,
+    "scoring": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0
+}
+2020-02-03 12:43:42
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    LogisticRegressionCV
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.648
+Accuracy                                 86.750
+
+Matriz de Confusao
+           Non Ent Par
+None       1501  48   4
+Entailment 124 208   9
+Parafrase   39  41  26
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.93      1553
+           1       0.70      0.61      0.65       341
+           2       0.67      0.25      0.36       106
+
+    accuracy                           0.87      2000
+   macro avg       0.76      0.61      0.65      2000
+weighted avg       0.86      0.87      0.85      2000
+
+Params:{
+    "Cs": 10,
+    "class_weight": null,
+    "cv": 3,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1.0,
+    "l1_ratios": null,
+    "max_iter": 300,
+    "multi_class": "warn",
+    "n_jobs": -1,
+    "penalty": "l2",
+    "random_state": 50,
+    "refit": true,
+    "scoring": null,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0
+}
+2020-02-03 12:44:57
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    LogisticRegressionCV
+File Train                               assin-ptbr-train
+File Test                                assin-ptbr-test
+f1                                       0.653
+Accuracy                                 86.350
+
+Matriz de Confusao
+           Non Ent Par
+None       1503  46   4
+Entailment 136 194  11
+Parafrase   43  33  30
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.89      0.97      0.93      1553
+           1       0.71      0.57      0.63       341
+           2       0.67      0.28      0.40       106
+
+    accuracy                           0.86      2000
+   macro avg       0.76      0.61      0.65      2000
+weighted avg       0.85      0.86      0.85      2000
+
+Params:{
+    "Cs": 10,
+    "class_weight": null,
+    "cv": 3,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1.0,
+    "l1_ratios": null,
+    "max_iter": 300,
+    "multi_class": "warn",
+    "n_jobs": -1,
+    "penalty": "l2",
+    "random_state": 50,
+    "refit": true,
+    "scoring": null,
+    "solver": "newton-cg",
+    "tol": 0.0001,
+    "verbose": 0
+}
+2020-02-03 12:47:52
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    RandomForestClassifier
+File Train                               assin-train
+File Test                                assin-ptbr-test
+f1                                       0.643
+Accuracy                                 85.050
+
+Matriz de Confusao
+           Non Ent Par
+None       1490  55   8
+Entailment 142 174  25
+Parafrase   44  25  37
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.89      0.96      0.92      1553
+           1       0.69      0.51      0.58       341
+           2       0.53      0.35      0.42       106
+
+    accuracy                           0.85      2000
+   macro avg       0.70      0.61      0.64      2000
+weighted avg       0.84      0.85      0.84      2000
+
+Params:{
+    "bootstrap": true,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "auto",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 4,
+    "min_samples_split": 16,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": -1,
+    "oob_score": true,
+    "random_state": 50,
+    "verbose": 1,
+    "warm_start": true
+}
+2020-02-03 15:32:01
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    ExtraTreesClassifier
+File Train                               assin-train
+File Test                                assin-ptbr-test
+f1                                       0.625
+Accuracy                                 85.100
+
+Matriz de Confusao
+           Non Ent Par
+None       1496  54   3
+Entailment 144 177  20
+Parafrase   41  36  29
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.89      0.96      0.93      1553
+           1       0.66      0.52      0.58       341
+           2       0.56      0.27      0.37       106
+
+    accuracy                           0.85      2000
+   macro avg       0.70      0.59      0.62      2000
+weighted avg       0.83      0.85      0.84      2000
+
+Params:{
+    "bootstrap": true,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "auto",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 50,
+    "verbose": 0,
+    "warm_start": false
+}
+2020-02-03 15:32:05
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    GradientBoostingClassifier
+File Train                               assin-train
+File Test                                assin-ptbr-test
+f1                                       0.676
+Accuracy                                 85.800
+
+Matriz de Confusao
+           Non Ent Par
+None       1475  67  11
+Entailment 116 194  31
+Parafrase   33  26  47
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93      1553
+           1       0.68      0.57      0.62       341
+           2       0.53      0.44      0.48       106
+
+    accuracy                           0.86      2000
+   macro avg       0.70      0.65      0.68      2000
+weighted avg       0.85      0.86      0.85      2000
+
+Params:{
+    "criterion": "friedman_mse",
+    "init": null,
+    "learning_rate": 0.1,
+    "loss": "deviance",
+    "max_depth": 3,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 100,
+    "n_iter_no_change": null,
+    "presort": "auto",
+    "random_state": 50,
+    "subsample": 1.0,
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+}
+2020-02-03 15:32:07
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    HistGradientBoostingClassifier
+File Train                               assin-train
+File Test                                assin-ptbr-test
+f1                                       0.622
+Accuracy                                 84.950
+
+Matriz de Confusao
+           Non Ent Par
+None       1502  43   8
+Entailment 152 167  22
+Parafrase   53  23  30
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.88      0.97      0.92      1553
+           1       0.72      0.49      0.58       341
+           2       0.50      0.28      0.36       106
+
+    accuracy                           0.85      2000
+   macro avg       0.70      0.58      0.62      2000
+weighted avg       0.83      0.85      0.83      2000
+
+Params:{
+    "l2_regularization": 1,
+    "learning_rate": 0.01,
+    "loss": "auto",
+    "max_bins": 128,
+    "max_depth": 16,
+    "max_iter": 100,
+    "max_leaf_nodes": 8,
+    "min_samples_leaf": 20,
+    "n_iter_no_change": null,
+    "random_state": 50,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0
+}
+2020-02-03 15:32:11
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPClassifier
+File Train                               assin-train
+File Test                                assin-ptbr-test
+f1                                       0.693
+Accuracy                                 86.550
+
+Matriz de Confusao
+           Non Ent Par
+None       1472  65  16
+Entailment 105 211  25
+Parafrase   30  28  48
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.92      0.95      0.93      1553
+           1       0.69      0.62      0.65       341
+           2       0.54      0.45      0.49       106
+
+    accuracy                           0.87      2000
+   macro avg       0.72      0.67      0.69      2000
+weighted avg       0.86      0.87      0.86      2000
+
+Params:{
+    "activation": "relu",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 10,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2020-02-03 15:32:57
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingClassifier
+File Train                               assin-train
+File Test                                assin-ptbr-test
+f1                                       0.635
+Accuracy                                 84.850
+
+Matriz de Confusao
+           Non Ent Par
+None       1488  55  10
+Entailment 143 174  24
+Parafrase   46  25  35
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.89      0.96      0.92      1553
+           1       0.69      0.51      0.58       341
+           2       0.51      0.33      0.40       106
+
+    accuracy                           0.85      2000
+   macro avg       0.69      0.60      0.64      2000
+weighted avg       0.83      0.85      0.84      2000
+
+Params:
+model1{
+    "bootstrap": true,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "auto",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 4,
+    "min_samples_split": 16,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": -1,
+    "oob_score": true,
+    "random_state": 50,
+    "verbose": 1,
+    "warm_start": true
+}
+2020-02-03 15:33:50
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    LogisticRegression
+File Train                               assin-train
+File Test                                assin-ptbr-test
+f1                                       0.710
+Accuracy                                 87.550
+
+Matriz de Confusao
+           Non Ent Par
+None       1492  53   8
+Entailment 111 212  18
+Parafrase   32  27  47
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.91      0.96      0.94      1553
+           1       0.73      0.62      0.67       341
+           2       0.64      0.44      0.53       106
+
+    accuracy                           0.88      2000
+   macro avg       0.76      0.68      0.71      2000
+weighted avg       0.87      0.88      0.87      2000
+
+Params:{
+    "C": 1.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": null,
+    "max_iter": 100,
+    "multi_class": "warn",
+    "n_jobs": null,
+    "penalty": "l2",
+    "random_state": 50,
+    "solver": "newton-cg",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+}
+2020-02-03 15:33:57
+--------------------------------------------------------------------------------------------------------------

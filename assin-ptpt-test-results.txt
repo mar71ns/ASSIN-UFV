@@ -1,0 +1,806 @@
+
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    RandomForestRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.717
+Mean Squared Error                       0.642
+Mean Absolute Error                      0.642
+Accuracy                                 69.400
+Params:{
+    "bootstrap": true,
+    "criterion": "mse",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 2,
+    "min_samples_split": 8,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": -1,
+    "oob_score": true,
+    "random_state": 50,
+    "verbose": 1,
+    "warm_start": true
+}
+2019-11-12 10:19:29
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    ExtraTreesRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.721
+Mean Squared Error                       0.640
+Mean Absolute Error                      0.644
+Accuracy                                 69.379
+Params:{
+    "bootstrap": false,
+    "criterion": "mse",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 264,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 50,
+    "verbose": 0,
+    "warm_start": false
+}
+2019-11-12 10:19:32
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    GradientBoostingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.718
+Mean Squared Error                       0.628
+Mean Absolute Error                      0.631
+Accuracy                                 70.091
+Params:{
+    "alpha": 0.9,
+    "criterion": "mse",
+    "init": null,
+    "learning_rate": 0.1,
+    "loss": "lad",
+    "max_depth": 3,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 100,
+    "n_iter_no_change": null,
+    "presort": "auto",
+    "random_state": 50,
+    "subsample": 0.5,
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+}
+2019-11-12 10:19:33
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    HistGradientBoostingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.724
+Mean Squared Error                       0.618
+Mean Absolute Error                      0.624
+Accuracy                                 70.354
+Params:{
+    "l2_regularization": 1,
+    "learning_rate": 0.01,
+    "loss": "least_squares",
+    "max_bins": 256,
+    "max_depth": null,
+    "max_iter": 9999,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "n_iter_no_change": 150,
+    "random_state": 50,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 1
+}
+2019-11-12 10:20:03
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    GaussianProcessRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.717
+Mean Squared Error                       0.628
+Mean Absolute Error                      0.648
+Accuracy                                 69.854
+Params:
+2019-11-12 10:20:23
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.718
+Mean Squared Error                       0.645
+Mean Absolute Error                      0.648
+Accuracy                                 69.220
+Params:
+2019-11-12 10:20:41
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    HistGradientBoostingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.724
+Mean Squared Error                       0.618
+Mean Absolute Error                      0.624
+Accuracy                                 70.354
+Params:{
+    "l2_regularization": 1,
+    "learning_rate": 0.01,
+    "loss": "least_squares",
+    "max_bins": 256,
+    "max_depth": null,
+    "max_iter": 9999,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "n_iter_no_change": 150,
+    "random_state": 50,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 1
+}
+2019-11-12 10:24:38
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.699
+Mean Squared Error                       0.655
+Mean Absolute Error                      0.661
+Accuracy                                 69.145
+Params:{
+    "activation": "relu",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 1500,
+    "momentum": 0.9,
+    "n_iter_no_change": 100,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": true,
+    "warm_start": false
+}
+2019-11-12 10:25:44
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.726
+Mean Squared Error                       0.616
+Mean Absolute Error                      0.622
+Accuracy                                 70.359
+Params:{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 1500,
+    "momentum": 0.9,
+    "n_iter_no_change": 10,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 10:26:55
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.716
+Mean Squared Error                       0.625
+Mean Absolute Error                      0.627
+Accuracy                                 70.452
+Params:{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        64,
+        128
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 100,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 10:47:50
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.737
+Mean Squared Error                       0.606
+Mean Absolute Error                      0.621
+Accuracy                                 70.313
+Params:
+2019-11-12 10:50:06
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.722
+Mean Squared Error                       0.620
+Mean Absolute Error                      0.628
+Accuracy                                 70.364
+Params:{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 100,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 10:50:43
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.740
+Mean Squared Error                       0.606
+Mean Absolute Error                      0.623
+Accuracy                                 70.212
+Params:
+Params:
+MLPRegressor{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 100,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 10:51:39
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.695
+Mean Squared Error                       0.657
+Mean Absolute Error                      0.641
+Accuracy                                 69.807
+Params:{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 30,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 10:53:18
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.740
+Mean Squared Error                       0.606
+Mean Absolute Error                      0.623
+Accuracy                                 70.212
+Params:
+MLP Regressor({
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 30,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+})
+2019-11-12 10:54:14
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.721
+Mean Squared Error                       0.624
+Mean Absolute Error                      0.634
+Accuracy                                 69.985
+Params:{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 10,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 10:54:55
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.740
+Mean Squared Error                       0.606
+Mean Absolute Error                      0.623
+Accuracy                                 70.212
+Params:
+2019-11-12 10:55:52
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.730
+Mean Squared Error                       0.610
+Mean Absolute Error                      0.626
+Accuracy                                 70.438
+Params:{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 10,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 10:56:20
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.734
+Mean Squared Error                       0.609
+Mean Absolute Error                      0.622
+Accuracy                                 70.414
+Params:
+model4 = HistGradientBoostingRegressor(
+                        l2_regularization=1,
+                        learning_rate=0.01,
+                        loss='least_squares',
+                        max_iter= 9999,
+                        max_leaf_nodes  = 31,
+                        min_samples_leaf = 20,
+                        n_iter_no_change = 150,
+                        scoring="loss",
+                        verbose = 1,
+                        validation_fraction= 0.1,
+                        random_state=RSEED)
+2019-11-12 11:04:02
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.724
+Mean Squared Error                       0.620
+Mean Absolute Error                      0.625
+Accuracy                                 70.287
+Params:{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 10,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 11:07:38
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingRegressor
+File Train                               assin-ptpt-train
+File Test                                assin-ptpt-test
+Pearson                                  0.740
+Mean Squared Error                       0.606
+Mean Absolute Error                      0.623
+Accuracy                                 70.212
+Params:
+2019-11-12 11:08:36
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    MLPRegressor
+File Train                               assin-train
+File Test                                assin-ptpt-test
+Pearson                                  0.739
+Mean Squared Error                       0.598
+Mean Absolute Error                      0.622
+Accuracy                                 70.610
+Params:{
+    "activation": "logistic",
+    "alpha": 0.0001,
+    "batch_size": "auto",
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "hidden_layer_sizes": [
+        32,
+        64
+    ],
+    "learning_rate": "adaptive",
+    "learning_rate_init": 0.001,
+    "max_iter": 2000,
+    "momentum": 0.9,
+    "n_iter_no_change": 10,
+    "nesterovs_momentum": true,
+    "power_t": 0.5,
+    "random_state": null,
+    "shuffle": true,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": false,
+    "warm_start": false
+}
+2019-11-12 11:09:41
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    BaggingRegressor
+File Train                               assin-train
+File Test                                assin-ptpt-test
+Pearson                                  0.747
+Mean Squared Error                       0.592
+Mean Absolute Error                      0.619
+Accuracy                                 70.570
+Params:
+model6 = MLP Regressor(
+                        hidden_layer_sizes=(32,64),
+                        activation='logistic',
+                        solver='lbfgs',
+                        max_iter=2000,
+                        learning_rate='adaptive',
+                        n_iter_no_change=10,
+                        verbose=False,
+                    )
+2019-11-12 11:11:40
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    RandomForestRegressor
+File Train                               assin-train
+File Test                                assin-ptpt-test
+Pearson                                  0.724
+Mean Squared Error                       0.639
+Mean Absolute Error                      0.643
+Accuracy                                 69.386
+Params:{
+    "bootstrap": true,
+    "criterion": "mse",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 2,
+    "min_samples_split": 8,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 1000,
+    "n_jobs": -1,
+    "oob_score": true,
+    "random_state": 50,
+    "verbose": 1,
+    "warm_start": true
+}
+2019-11-12 11:12:03
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    ExtraTreesRegressor
+File Train                               assin-train
+File Test                                assin-ptpt-test
+Pearson                                  0.729
+Mean Squared Error                       0.638
+Mean Absolute Error                      0.647
+Accuracy                                 69.210
+Params:{
+    "bootstrap": false,
+    "criterion": "mse",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 264,
+    "n_jobs": null,
+    "oob_score": false,
+    "random_state": 50,
+    "verbose": 0,
+    "warm_start": false
+}
+2019-11-12 11:12:08
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    GradientBoostingRegressor
+File Train                               assin-train
+File Test                                assin-ptpt-test
+Pearson                                  0.722
+Mean Squared Error                       0.628
+Mean Absolute Error                      0.633
+Accuracy                                 69.995
+Params:{
+    "alpha": 0.9,
+    "criterion": "mse",
+    "init": null,
+    "learning_rate": 0.1,
+    "loss": "lad",
+    "max_depth": 3,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_impurity_split": null,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "n_estimators": 100,
+    "n_iter_no_change": null,
+    "presort": "auto",
+    "random_state": 50,
+    "subsample": 0.5,
+    "tol": 0.0001,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+}
+2019-11-12 11:12:10
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    HistGradientBoostingRegressor
+File Train                               assin-train
+File Test                                assin-ptpt-test
+Pearson                                  0.736
+Mean Squared Error                       0.605
+Mean Absolute Error                      0.620
+Accuracy                                 70.519
+Params:{
+    "l2_regularization": 1,
+    "learning_rate": 0.01,
+    "loss": "least_squares",
+    "max_bins": 256,
+    "max_depth": null,
+    "max_iter": 9999,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "n_iter_no_change": 150,
+    "random_state": 50,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 1
+}
+2019-11-12 11:12:39
+--------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
+
+Model                                    GaussianProcessRegressor
+File Train                               assin-train
+File Test                                assin-ptpt-test
+Pearson                                  0.728
+Mean Squared Error                       0.619
+Mean Absolute Error                      0.642
+Accuracy                                 69.959
+Params:
+2019-11-12 11:15:59
+--------------------------------------------------------------------------------------------------------------
