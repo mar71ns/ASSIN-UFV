@@ -23,11 +23,9 @@ Para cada um dos 6 arquivos do corpus original foram gerados:
 5. Arquivo com os resultados dos modelos para a tarefa de Inferência Textual (nome_arquivo + '-results-classifier.txt')
 
  
-O arquivo 1 possui os valores de diversas features geradas sobre cada par de frases do corpus.
-
-Os arquivos 2 e 3 são utilizados para o aprendizado supervisionado dos regressores e classificadores, respectivamente.
-
-Os arquivos 4 e 5 contém a configuração dos modelos e seus resultados para cada tarefa.
+- O arquivo 1 possui os valores de diversas features geradas sobre cada par de frases do corpus.
+- Os arquivos 2 e 3 são utilizados para o aprendizado supervisionado dos regressores e classificadores, respectivamente.
+- Os arquivos 4 e 5 contém a configuração dos modelos e seus resultados para cada tarefa.
 
 
 obs: Para realizar o treinamento em ambas variações do corpus fora criado o arquivo 'assin-train' com os respectivos labels dos itens 2 e 3.
