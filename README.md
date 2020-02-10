@@ -15,21 +15,14 @@ Paraca cada idioma há um arquivo train, dev e test.
 Ex: nome_arquivo = 'assin-ptbr-train'
 
 Para cada um dos 6 arquivos do corpus original foram gerados:
-
  
-
 1. Arquivo com os valores do pré-processamento (nome_arquivo + '-processed.json')
-
 2. Arquivo com os labels para a tarefa de Similaridade Semântica (nome_arquivo + '-labels.json')
-
 3. Arquivo com os labels para a tarefa de Inferência Textual (nome_arquivo + '-labels-classifiers.json')
-
 4. Arquivo com os resultados dos modelos para a tarefa de Similaridade Semântica (nome_arquivo + '-results.txt')
-
 5. Arquivo com os resultados dos modelos para a tarefa de Inferência Textual (nome_arquivo + '-results-classifier.txt')
 
  
-
 O arquivo 1 possui os valores de diversas features geradas sobre cada par de frases do corpus.
 
 Os arquivos 2 e 3 são utilizados para o aprendizado supervisionado dos regressores e classificadores, respectivamente.
