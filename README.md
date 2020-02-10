@@ -16,7 +16,7 @@ Ex: nome_arquivo = 'assin-ptbr-train'
 
 Para cada um dos 6 arquivos do corpus original foram gerados:
 
--
+ 
 
 1. Arquivo com os valores do pré-processamento (nome_arquivo + '-processed.json')
 
@@ -28,7 +28,7 @@ Para cada um dos 6 arquivos do corpus original foram gerados:
 
 5. Arquivo com os resultados dos modelos para a tarefa de Inferência Textual (nome_arquivo + '-results-classifier.txt')
 
--
+ 
 
 O arquivo 1 possui os valores de diversas features geradas sobre cada par de frases do corpus.
 
